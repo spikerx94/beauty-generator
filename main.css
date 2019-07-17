@@ -1,0 +1,45 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container .container__items {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.container .container__items .container__items__box {
+  width: 50%;
+  min-height: 310px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+}
+.container .container__items .container__items__box .container__items_box-image {
+  height: 100%;
+}
+.container .container__items .container__items__box .container__items_box-image img {
+  max-width: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.container .container__items .container__items__box .container__items__box-text {
+  padding: 25px;
+}
+.container .container__items .container__items__box__full {
+  width: 100%;
+}
+.container .container__items .container__items__box__full img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+/*# sourceMappingURL=main.css.map */
