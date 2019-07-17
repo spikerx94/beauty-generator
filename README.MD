@@ -1,0 +1,1 @@
+// Generator opisów produktowych
